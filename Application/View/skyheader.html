@@ -1,0 +1,122 @@
+<!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">skylineedu2018@gmail.com</a>
+        <i class="bi bi-phone"></i> +917439856982
+      </div>
+      <div class="d-none d-lg-flex social-links align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">SKYLINE EDUCATION</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="<?php echo base_url('public/template/img/logo.png'); ?>" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Courses</a></li>
+          <!--<li><a class="nav-link scrollto" href="#departments"></a></li>-->
+          <li><a class="nav-link scrollto" href="#doctors">Members</a></li>
+          <!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>-->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Connect Us</span> </a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <h1>Welcome to Skyline Education</h1>
+      <h2>We are team of talented Teachers & Technical Instructors, who helps you to learn and build your skill on Computer Technologies </h2>
+      <a href="<?php echo base_url('index.php/User/logout'); ?>" class="btn-get-started scrollto">Log out</a>
+    </div>
+  </section><!-- End Hero -->
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="<?php echo base_url('index.php/User/homepage'); ?>">Home</a></li>
+          <li class="dropdown"><a href="#"><span>Student</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="<?php echo base_url('index.php/StudentController/loadregisterview'); ?>">New Admission</a></li>
+              <li><a href="<?php echo base_url('index.php/StudentController/initiatestudentsearchforUpdate'); ?>">Update</a></li>
+              <li><a href="<?php echo base_url('index.php/StudentController/initiatestudentsearch'); ?>">View</a></li>
+	      <li><a href="<?php echo base_url('index.php/StudentController/loadstudentdetailsviewforremove'); ?>">Activate</a></li>
+              <li><a href="<?php echo base_url('index.php/StudentController/loadstudentdetailsviewforremove'); ?>">Deactivate</a></li>
+	      <li><a href="<?php echo base_url('index.php/StudentController/loadstudentdetailsview'); ?>">Assign Course</a></li>
+              <li><a href="<?php echo base_url('index.php/StudentController/loadstudentdetailsviewforassign'); ?>">Assign Class</a></li>
+              <li><a href="<?php echo base_url('index.php/StudentAttendanceController/loadattendanceview'); ?>">Attendance</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Teacher</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="<?php echo base_url('index.php/teacherController/loadregisterview'); ?>">New</a></li>
+              <li><a href="<?php echo base_url('index.php/teacherController/initiateupdateteacher'); ?>">Update</a></li>
+              <li><a href="<?php echo base_url('index.php/teacherController/initiateteacher_view'); ?>">View</a></li>
+    	      <li><a href="#">Remove</a></li>
+              <li><a href="<?php echo base_url('index.php/StudentAssignmentController/assignteacher'); ?>">Assign Student</a></li>
+	      <li><a href="<?php echo base_url('index.php/teacherAttendenceController/loadattendanceview'); ?>">Attendance</a></li>
+            </ul>
+          </li>
+	 <li class="dropdown"><a href="#"><span>Course</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="<?php echo base_url('index.php/CourseController/loadregisterview'); ?>">New</a></li>
+              <li><a href="<?php echo base_url('index.php/CourseController/initiateupdatecourse'); ?>">Update</a></li>
+              <li><a href="<?php echo base_url('index.php/CourseController/initiatecourseview'); ?>">View</a></li>
+              <li><a href="<?php echo base_url('index.php/CourseController/loadcourseviewforremove'); ?>">Remove</a></li>
+            </ul>
+          </li>
+	   <li class="dropdown"><a href="#"><span>Payment</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+             <li><a href="<?php echo base_url('index.php/StudentController/initiatepaymentsearch'); ?>">Tution Fee</a></li>
+             <li><a href="#">Admission Fee</a></li>
+            </ul>
+          </li>
+	  <li class="dropdown"><a href="#"><span>Report</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+            <li><a href="<?php echo base_url('index.php/StudentAssignmentController/getStudentAssignmentRecords'); ?>">Student DashBoard</a></li>
+            <li><a href="<?php echo base_url('index.php/StudentFeeController/loadinitiateduepayment'); ?>">Due Payment</a></li>
+            <li><a href="<?php echo base_url('index.php/StudentFeeController/searchreceivedfees'); ?>">Fee Received</a></li>
+            </ul>
+          </li>
+<li class="dropdown"><a href="#"><span>My Profile</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+            <li><a href="#">Update Profile</a></li>
+            <li><a href="update_password.php">Change Password</a></li>
+            <li><a href="<?php echo base_url('index.php/User/logout'); ?>">Log Out</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
