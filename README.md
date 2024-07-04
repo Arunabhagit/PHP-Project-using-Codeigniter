@@ -8,4 +8,3 @@
 
 ![Screenshot 2024-07-04 112923](https://github.com/Arunabhagit/PHP-project-Using-Codeigniter/assets/149260480/f70787e3-2991-44cf-bf16-58fbbeaf4b89)
 
-![Screenshot 2024-07-04 113003](https://github.com/Arunabhagit/PHP-project-Using-Codeigniter/assets/149260480/c1b05273-5d0b-4cb2-be9d-c3dbd6c6798c)
